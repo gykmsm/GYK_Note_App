@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "855605449402",
+    "firebase_url": "https://gyknotee.firebaseio.com",
+    "project_id": "gyknotee",
+    "storage_bucket": "gyknotee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855605449402:android:ec1b7e15fd12c5e1",
+        "android_client_info": {
+          "package_name": "com.merveakgormus.gyk_note_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855605449402-htglri9haf2bc0pfls9ep3qjddq29nuj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWP-QB88OWBhVSTPsogzAKbBy4lcMcfoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855605449402-htglri9haf2bc0pfls9ep3qjddq29nuj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

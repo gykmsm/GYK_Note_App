@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/button"
+        android:id="@+id/imgProfilePicture"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Merve Akgörmüş"
+        android:layout_below="@id/imgProfilePicture"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:id="@+id/tvUserName"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="merve@gmail.com"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/tvUserName"
+        android:textStyle="italic"
+        android:id="@+id/tvUserMail"/>
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.LoginActivity"
+    android:padding="32dp"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:id="@+id/l1"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:id="@+id/edtMail"
+            android:background="@color/colorNon"
+            android:padding="12dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Şifre"
+            android:background="@color/colorNon"
+            android:padding="12dp"
+            android:layout_below="@id/edtMail"
+            android:id="@+id/edtPassword"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_gravity="right"
+
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edtPassword"
+            android:id="@+id/btnLogin"
+            android:text="Giriş Yap"
+            android:background="@drawable/circle_orange_button"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="12dp"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kayıt ol"
+        android:id="@+id/btnGoRegister"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/circle_blue_button"
+        android:textColor="@color/colorWhite"/>
+
+</RelativeLayout>
